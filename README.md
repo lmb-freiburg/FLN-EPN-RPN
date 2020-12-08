@@ -14,7 +14,9 @@ To get an overview about the method and its results, we highly recommend checkin
 
 #### Data
 
-To get the post-processed testing datasets used in our paper, you can download them from <a href="https://lmb.informatik.uni-freiburg.de/resources/software.php">[resources page]</a>. There navigate to FLN-EPN-RPN and download both FIT and nuScenes [1]. For Waymo dataset [2], you can get it from the following <a href="https://console.cloud.google.com/storage/browser/waymo_open_dataset_test_fln">[link]</a>. After extracting these datasets, you should have the following structure:
+To get the post-processed testing datasets used in our paper, you can download them from <a href="https://lmb.informatik.uni-freiburg.de/resources/software.php">[resources page]</a>. There navigate to FLN-EPN-RPN and download both FIT and nuScenes [1]. For Waymo dataset [2], you have to do the following steps to get the data: (1) go to www.waymo.com/open and click on 'Access Waymo Open Dataset' to sign with your google account and accept the terms from Waymo, (2) after logging you can go to <a href="https://console.cloud.google.com/storage/browser/waymo_open_dataset_test_fln">[link]</a> to download the dataset. Please note that you may need to wait up to 24h after step 1 to be granted access.
+
+After extracting these datasets, you should have the following structure:
 ```
 FLN-EPN-RPN
 └── datasets
